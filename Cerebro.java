@@ -30,6 +30,8 @@ class Cerebro {
   }
 
   boolean esUnOp(char sOp){ // me mandaba error porque segun el compilador los signos son String no Char 
+  
+  //trata de definir los simbolos como constantes char.
     if (sOp == "+" || sOp == "-" || sOp == "*" || sOp == "/" || sOp == "(" || sOp == ")") {   //Metodo para comparar los operandos
         operador.push(sOp);
       return true;
